@@ -1,0 +1,368 @@
+
+body {
+  background-image: url("download.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+nav {
+  background-color: #f7f8fa;
+  align-items: center;
+  text-align:center;
+  justify-content: space-between;
+  padding: 0%;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 100%;
+  margin-left: 20%;
+  margin-right: 25%;
+  margin: 20px;
+  position: relative;
+}
+
+nav li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: bold;
+ 
+  margin: 0%;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+}
+nav li a:hover{
+  color: #444444;
+}
+nav li a:hover,
+nav li a.active {
+  color: #d4d0d0;
+}
+
+nav li a.active::after,
+nav li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+    
+}
+
+nav li img{
+    vertical-align: middle;
+}
+
+
+main {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #f8f8f8;
+  border-radius: 4px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+form input[type=submit] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.Login {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  padding: 6px 12px;
+  text-decoration: none;
+  outline: none;
+  margin-left: 60px;
+}
+
+.Login:hover {
+  background-color: #45a049;
+}
+
+.SignUp {
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 100px;
+  padding: 6px 12px;
+  text-decoration: none;
+  outline: none;
+}
+a.SignUp{
+  margin-left: -40%;
+  margin-right: 46%;
+}
+.SignUp:hover  {
+  background-color: #45a049;
+}
+
+.SignUp:active {
+  background-color: #45a049;
+}
+.header{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 12vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-dropdown {
+  position: relative;
+}
+
+.Cart {
+  position: relative;
+}
+
+.dropdown-content {
+	  display:none;
+    position: absolute;
+    background-color: #f7f8fa;
+    padding: 10px 20px 10px ;
+    left: 10px;
+    top: 40px;
+}
+.cart-header{
+text-align:left;
+
+}
+.cart-header h2{
+margin:10px;
+
+}
+
+
+
+.cart-item{
+  display: flex;
+  justify-content: space-between;
+  
+  background-color:#ffff;
+  font-size: 80%;
+margin-bottom: 10px;
+}
+
+
+.cart-item h3{
+position: absolute;
+    left: 60px;
+}
+
+.cart-item p {
+position: absolute;
+    right: 115px;
+    display: inline-block;
+    flex-direction: column;
+}
+
+
+.quantity [type=number]{
+  width: 30px;
+}
+
+
+
+.cart-items{
+	background: white;
+    padding:10px;
+    border:  groove;
+    color: black;
+    overflow: scroll;
+    height: 360px;
+    width: 350px;
+}
+
+.cart-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.li-logo{
+    margin: 0;
+}
+.cart-container{
+	 border-radius: 20px;
+ box-shadow: 0px 25px 40px #1687d933;
+	
+}
+
+
+.footer {
+background-color: #f7f8fa;
+color: #444444;
+font-size: 14px;
+padding-right: 100px;
+margin-top: 100px;
+text-align: center;
+padding: 50px;
+padding-left: 100px;
+}
+
+.footer a {
+color: #007bff;
+text-decoration: none;
+}
+
+.footer a:hover {
+color: #0056b3;
+text-decoration: none;
+}
+
+.footer p {
+padding: block;
+padding-left: block;
+}
+.container {
+  max-width: 1000px;
+  padding: 7%;
+  margin: 5% 20%;
+  font-size: 1.5vw;
+  text-align: center;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.container h1 {
+  text-align: center;
+  margin-top: -3vw;
+  font-style: italic;
+  border-radius: 3vw;
+  border: dotted;
+  margin-bottom: 3vw;
+  text-shadow: 0.4vw 0.2vw 0.3vw #898989;
+  padding: 0.6vw;
+  margin-inline: 10%;
+  margin-block-end: auto;
+  background-color: #ffffffee;
+}
+
+.categories {
+  padding-top: 2%;
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-right: 20%;
+}
+
+.category {
+  text-align: center;
+  width: 20%;
+  margin: 1%;
+  padding: 2%;
+  background-color: #fff;
+  box-shadow: 0 0 0.5vw rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.category:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 1vw rgba(0, 0, 0, 0.3);
+}
+
+.category img {
+  width: 100%;
+  height: 30%;
+  box-shadow: 0 0 0.5vw rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.category img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 1vw rgba(0, 0, 0, 0.3);
+}
+
+.category h3 {
+  margin: 20px 0 10px;
+  font-size: 80%;
+  margin-top: 1px;
+}
+
+.category p{
+  margin-top: -10%;
+}
+.category a {
+  font-size: 50%;
+  font-weight: bold;
+  list-style: none;
+  text-decoration: none;
+  color: #fdf8f8;
+  padding: 4%;
+  border-radius: 18%;
+  background-color: #4caf50;
+}
+
+.categories1 {
+  padding-top: 2%;
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-right: 20%;
+}
+
+.categories2 {
+  padding-top: 2%;
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-right: 20%;
+}
+
+.categories3 {
+  padding-top: 2%;
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-right: 20%;
+}
+
+ 
+*,
+*::after,
+*::before {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.category a{
+cursor: pointer;
+}

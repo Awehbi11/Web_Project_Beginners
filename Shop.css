@@ -1,0 +1,150 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+.container2 {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 3.63636%;
+    margin-top: 7.27273%;
+    background-color: #fff;
+    box-shadow: 0 0.181818rem 0.363636rem rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+h1, h2 {
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.27273rem;
+    margin-bottom: 0.909091rem;
+}
+
+h2 {
+    font-size: 1.90909rem;
+    margin-top: 3.63636%;
+    margin-bottom: 2.72727%;
+}
+
+.container2 p {
+    font-size: 1.81818rem;
+    color: #666;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+/* Section-specific styles */
+
+.product-image2 {
+    max-width: 100%;
+    margin-bottom: 2.72727%;
+}
+
+.price2 {
+    color: #f44336;
+    font-size: 2.90909rem;
+    margin: 0;
+    line-height: 1;
+    text-align: right;
+}
+
+.price2 a {
+    font-size: 50%;
+    margin-left: 0.909091rem;
+    font-weight: bolder;
+    list-style: circle;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 0.545455rem 0.454545rem;
+    margin: 2.72727%;
+    margin-top: 2.72727%;
+    box-shadow: inset;
+    text-shadow: 0.181818rem 0.181818rem 0.181818rem #0e0d0d;
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+
+.discounted-price2 {
+    color: #333;
+    font-size: 1.81818rem;
+    text-decoration: line-through;
+    margin-left: 0.909091rem;
+}
+
+.review2 {
+    border: 0.0909091rem solid #ddd;
+    padding: 2.72727%;
+    margin-bottom: 2.72727%;
+    margin-top: 1.81818%;
+    border-radius: 5px;
+}
+
+.review .rating2 {
+    display: inline-block;
+    color: #f44336;
+    font-size: 2.18182rem;
+    margin: 0;
+    margin-right: 0.909091rem;
+    line-height: 1;
+}
+
+.review .comment2 {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 1.81818%;
+}
+
+.review .author2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333;
+    margin: 0;
+}
+
+.shipping-info2 {
+    border: 0.0909091rem solid #ddd;
+    padding: 2.72727%;
+    margin-bottom: 2.72727%;
+    border-radius: 5px;
+}
+
+.shipping-info2 h3 {
+    font-size: 2.18182rem;
+    margin: 0 0 1.81818%;
+    color: #333;
+    font-weight: 
+700;
+text-transform: uppercase;
+}
+
+.shipping-info2 p {
+margin-bottom: 1.81818%;
+}
+
+.return-info2 {
+border: 0.0909091rem solid #ddd;
+padding: 2.72727%;
+margin-bottom: 2.72727%;
+border-radius: 5px;
+}
+
+.return-info2 h3 {
+font-size: 2.18182rem;
+margin: 0 0 1.81818%;
+color: #333;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.return-info2 p {
+margin-bottom: 1.81818%;
+}
